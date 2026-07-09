@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>DRIFTWEAR — Guide · How this was built</title>
-<meta name="description" content="How the DRIFTWEAR site was designed and built with Fable: a cursor-follow parallax hero, generative duotone fabric-drape panels, a drag/snap lookbook, and GitHub Pages." />
+<meta name="description" content="How the DRIFTWEAR site was designed and built with Formwork: a cursor-follow parallax hero, generative duotone fabric-drape panels, a drag/snap lookbook, and GitHub Pages." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
@@ -56,7 +56,7 @@
 
   <span class="tag">Build guide · Site 17 of 25</span>
   <h1>A clothing label with <em>no photographs</em>.</h1>
-  <p class="lede">DRIFTWEAR is one of 25 sites designed and built by Fable to demonstrate
+  <p class="lede">DRIFTWEAR is one of 25 sites designed and built by Formwork to demonstrate
     web design, motion, and taste. Every "garment" you see is drawn by code — here's exactly
     how, and how you can do the same.</p>
 
@@ -103,8 +103,8 @@ grad.addColorStop(yy, mixRgb(shadow, highlight, b));</code></pre>
   <h2>Ship it on GitHub Pages</h2>
   <p>The whole site is static, so hosting is three commands:</p>
   <pre><code>git init -b main &amp;&amp; git add -A &amp;&amp; git commit -m "ship"
-gh repo create fable-driftwear --public --source=. --push
-gh api --method POST /repos/OWNER/fable-driftwear/pages \
+gh repo create formwork-driftwear --public --source=. --push
+gh api --method POST /repos/OWNER/formwork-driftwear/pages \
   -f 'source[branch]=main' -f 'source[path]=/'</code></pre>
   <p>Use <strong>relative paths</strong> (<code>./main.js</code>, not <code>/main.js</code>) because project
     Pages live under <code>/repo-name/</code>. Add an empty <code>.nojekyll</code> file so every asset serves verbatim.</p>
@@ -114,7 +114,7 @@ gh api --method POST /repos/OWNER/fable-driftwear/pages \
     type, and static hosting. The other 24 sites each swap the central technique — but the
     discipline is the same.</p>
 
-  <footer>Designed &amp; built by <strong>Fable</strong> · Part of a 25-site showcase · <a href="../">Return to DRIFTWEAR →</a></footer>
+  <footer>Designed &amp; built by <strong>Formwork</strong> · Part of a 25-site showcase · <a href="../">Return to DRIFTWEAR →</a></footer>
 </div>
 </body>
 </html>
