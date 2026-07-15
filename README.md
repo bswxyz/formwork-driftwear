@@ -1,4 +1,37 @@
-# Fashion label template — cursor-follow lookbook
+<!-- parable:beautified -->
+<div align="center">
+
+<h1>Driftwear</h1>
+
+<p><strong>Fashion label with a cursor-follow lookbook.</strong></p>
+
+<p>
+  <a href="https://bswxyz.github.io/formwork-driftwear/"><img alt="Live demo" src="https://img.shields.io/badge/demo-live-8b5cf6?style=flat-square&labelColor=1a1a1a"></a>
+  <img alt="Family" src="https://img.shields.io/badge/family-Formwork-ec4899?style=flat-square&labelColor=1a1a1a">
+  <img alt="Stack" src="https://img.shields.io/badge/stack-HTML%2FJS-f5a623?style=flat-square&labelColor=1a1a1a">
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-22c55e?style=flat-square&labelColor=1a1a1a"></a>
+</p>
+
+<p>
+  <a href="https://bswxyz.github.io/formwork-driftwear/"><b>Live demo</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://bswxyz.github.io/formwork-driftwear/guide/">Build notes</a>
+  &nbsp;·&nbsp;
+  <a href="https://parable-three.vercel.app/templates">More templates</a>
+</p>
+
+<a href="https://bswxyz.github.io/formwork-driftwear/">
+  <img src=".github/preview.jpg" alt="Driftwear — live preview" width="100%">
+</a>
+
+</div>
+
+**Use this template** — copy the source into a new project:
+
+```bash
+npx degit bswxyz/formwork-driftwear my-app
+```
+
 
 **Live demo → https://bswxyz.github.io/formwork-driftwear/** · [How it was built](https://bswxyz.github.io/formwork-driftwear/guide/)
 
